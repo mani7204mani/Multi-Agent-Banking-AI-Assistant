@@ -1,0 +1,130 @@
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+env/
+.venv/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# SQLite Databases
+# ===========================
+*.db
+*.sqlite3
+
+# If you want to keep schema but not actual data
+database/*.db
+chroma_db/
+
+# ===========================
+# Chroma Vector Database
+# ===========================
+chroma_db/
+chroma/
+persist_directory/
+
+# ===========================
+# LangGraph Checkpoints
+# ===========================
+checkpoints/
+state/
+
+# ===========================
+# Model Files
+# ===========================
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# ===========================
+# MLflow
+# ===========================
+mlruns/
+mlartifacts/
+
+# ===========================
+# Cache
+# ===========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# ===========================
+# Coverage
+# ===========================
+.coverage
+htmlcov/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+
+# ===========================
+# Build
+# ===========================
+build/
+dist/
+*.egg-info/
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+
+# ===========================
+# Generated Embeddings
+# ===========================
+vector_store/
+embeddings/
+index/
+
+# ===========================
+# Secrets
+# ===========================
+*.pem
+*.key
+*.crt
+*.pfx

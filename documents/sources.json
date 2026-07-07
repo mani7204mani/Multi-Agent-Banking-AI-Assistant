@@ -1,0 +1,30 @@
+[
+  {
+    "name": "RBI RTGS FAQ",
+    "url": "https://www.rbi.org.in/commonman/english/Scripts/FAQs.aspx?Id=275",
+    "type": "web",
+    "crawl": false,
+    "category": "payments"
+  },
+  {
+    "name": "RBI NEFT FAQ",
+    "url": "https://www.rbi.org.in/commonperson/English/Scripts/FAQs.aspx?Id=274",
+    "type": "web",
+    "crawl": false,
+    "category": "payments"
+  },
+  {
+    "name": "SBI Savings Accounts",
+    "url": "https://sbi.bank.in/web/personal-banking/accounts/saving-account",
+    "type": "web",
+    "crawl": true,
+    "category": "accounts"
+  },
+  {
+    "name": "SBI Personal Loans",
+    "url": "https://sbi.bank.in/web/personal-banking/loans/personal-loans",
+    "type": "web",
+    "crawl": true,
+    "category": "loans"
+  }
+]
