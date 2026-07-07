@@ -272,27 +272,7 @@ POST /chat
 
 ---
 
-## Transfer Money
 
-```
-POST /transfer
-```
-
----
-
-## Transaction History
-
-```
-GET /transactions
-```
-
----
-
-## Document QA
-
-```
-POST /rag/query
-```
 
 ---
 
